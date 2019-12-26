@@ -1,3 +1,63 @@
-<h1>Faire Day</h1>
-<h2>Privacy Policy</h2>
-<p>Coming soon.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faire Day</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya:400,700&display=swap">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    :root {
+      --color-background: hsl(0, 0%, 20%);
+      --color-foreground: hsl(0, 0%, 100%);
+    }
+    body {
+      background-color: var(--color-background);
+      color: var(--color-foreground);
+      font: 18px / 1.2 'Alegreya', serif;
+    }
+    main {
+      margin: 0 auto;
+      max-width: 40.0rem;
+      padding: 1.0rem 2.0rem;
+    }
+    main * + * {
+      margin-top: 1.0rem;
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: 400;
+    }
+    h2 {
+      color: hsl(0, 0%, 80%);
+      font-size: 14px;
+      letter-spacing: 0.25ch;
+      text-transform: uppercase;
+    }
+    a {
+      color: hsl(267, 41%, 53%);
+    }
+    ul {
+      padding-left: 2.0rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Faire Day</h1>
+    <h2 id="privacy">Privacy Policy</h2>
+    <p>Last updated <time datetime="2019-12-25">25 Dec 2019</time>.</p>
+    <p>Hi! I’m Tim, the creator of Faire Day. Your privacy is of utmost importance to me, so I want to be clear that:</p>
+    <ul>
+      <li>Faire Day does not directly collect any data about you or your use of the app. That includes this page!</li>
+      <li>If enabled, Apple shares some analytics (such as crash data) with me. I do not share this data. You can opt-out in <strong>Settings › Privacy › Analytics</strong>.</li>
+    </ul>
+    <p>If you have any questions, feel free to contact me at <a href="mailto:faireday@timgthomas.com">faireday@timgthomas.com</a>.</p>
+    <p>Enjoy your faire day!</p>
+    <p>Cheers,<br>Tim</p>
+  </main>
+</body>
+</html>
